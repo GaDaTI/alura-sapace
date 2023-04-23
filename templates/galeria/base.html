@@ -14,10 +14,9 @@
     </head>
     
     <body>
-        
-        {% block content %}{% endblock %}
-        {% include 'partials/_sidebar.html' %}        
-        {% include 'partials/_footer.html' %} 
+        {% include 'galeria/partials/_sidebar.html' %}
+        {% block content %}{% endblock %}                        
+        {% include 'galeria/partials/_footer.html' %} 
            
     </body>
 </html>
